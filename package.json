@@ -1,5 +1,5 @@
 {
-  "name": "file_import",
+  "name": "kerf-correction-for-airfoil-data",
   "version": "0.1.0",
   "private": true,
   "scripts": {
