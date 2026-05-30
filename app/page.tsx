@@ -167,7 +167,7 @@ export default function Home() {
 
     //-------------------------------------------create modified airfoil-------------------------------------------------------------------------
 
-    const modded_name = airfoil.name + "_modded";
+    const modded_name = airfoil.name + "_modded_" + scaleFactor + "_" + kerf;
 
     setAirfoilModded({ name: modded_name, points: trimmed_points });
   }
